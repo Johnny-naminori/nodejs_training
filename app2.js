@@ -8,8 +8,8 @@ var server = http.createServer(
     response.write('<title>Hello</title></head>');
     response.write('<body><h1>Hello Node.js!</h1>');
     response.write('<p>This is Node.js sample page.</p>');
-    response.write('<p>これは、Node.jsのサンプルページです。</p>', 'utf8');
-    response.write('</body></html>');
+response.write('<p>This is my edited Node.js sample page.</p>');
+response.write('<p>これは私が編集したNode.jsページです。</p>', 'utf8');
     response.end();
   }
 );
